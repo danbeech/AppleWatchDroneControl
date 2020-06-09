@@ -1,5 +1,5 @@
 # Gesture Control In 3 Dimensional Space
-##Provisional grade is: A+ (estimated at or above 70%).
+## Provisional grade is: A+ (estimated at or above 70%).
 
 This project required me to fly a drone using movement gestures detected by an Apple Watch.
 This was done by using a mixture of accelereometer/gyroscope/gravity readings, as well as a machine learning model trained to detect 'trick' commands that were used to make the drone do flips.
