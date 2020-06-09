@@ -1,0 +1,1391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F30B15B1E9FD878007C41ED8B8CCFA /* OnboardingContantViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA23CEFD3BCE835D70BF9682CEDDD5 /* OnboardingContantViewItem.swift */; };
+		0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB9FACB9E2EFA36A67C0FFCEA6093A8 /* Security.framework */; };
+		14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC376C9B494870383B71E4C3D804132 /* Foundation.framework */; };
+		1D8BE755A684FC132E1C0D62AD35A56A /* FillAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE02B0412D6E526E5C451BFD7BBEA1E /* FillAnimationView.swift */; };
+		1E43AD13C988387C35D65D341FA2A8C8 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B2077FE0924679263C6F5BA0D5AC2 /* PageView.swift */; };
+		1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 511449A22D807F808C357CDAE5DEABDD /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B78092AF9DA276B87C3A7842E2CCEDB /* CFNetwork.framework */; };
+		212086E4C51B3A341D4C61C6FDE867A8 /* Pods-TelloGestureControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE6FE7CB85842B4AE01306E239CE7D7 /* Pods-TelloGestureControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		223F3449974BEA68231F1EA9C6E1FE8D /* paper-onboarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 987BF5061BB8EA3114DDA5BD6AFFDA73 /* paper-onboarding-dummy.m */; };
+		2389208835126ADD6B969F7031EBFDCB /* PaperOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AFDB88826E9D3B233BD97418912ED0 /* PaperOnboarding.swift */; };
+		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA1B4B166E9AB9F195729D7FA9F21E9 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30CFA713EE9BC3CB4BF46E3B3DB0FCE2 /* Pods-TelloGestureControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AA3C6BC4B507512A8AA2EB2FF3A15 /* Pods-TelloGestureControl-dummy.m */; };
+		312BF2ABD1002E38247A633C34C649AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */; };
+		342607275DABA8DA2A32D101196496EB /* paper-onboarding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D70B45A00FD4C40BAF670B7BAAF2875D /* paper-onboarding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352B04945B096805FF7974E2C2132163 /* Pods-TelloGestureControl WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E425025C005D9947F0BF898B693A1F /* Pods-TelloGestureControl WatchKit App-dummy.m */; };
+		3B970F50B6565183DF0FD689A68C7CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC376C9B494870383B71E4C3D804132 /* Foundation.framework */; };
+		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D52CA90130F011F52A24A1F9B2EFBF04 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C615F57B763AA6170BBE5251567F140 /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A410FF5BA46F3062FEA3AF1CBB4AD /* OnboardingContentView.swift */; };
+		4F17055D20B820F265F0C174C67CA94B /* PageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC9889679ED553575A40D29BADEC96 /* PageContainer.swift */; };
+		569FC92E6B444C24EBF2C33CE01C22E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC376C9B494870383B71E4C3D804132 /* Foundation.framework */; };
+		59F4BC0C85E1F8A1F5E7E8FCF1391B25 /* Pods-TelloGestureControl WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3734D6836238A614746044CF5BAF112C /* Pods-TelloGestureControl WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68C635BA7C73A4541225E380D4BD67A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC376C9B494870383B71E4C3D804132 /* Foundation.framework */; };
+		6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00895AC430BFFAC92B723D8E8175E3CD /* CocoaAsyncSocket-dummy.m */; };
+		77F112403440A7419C4880CABD38A962 /* PageViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC5BDE72E8DCB8394986A53057348A2 /* PageViewItem.swift */; };
+		7D669CE134F23BB348238F83F58F94D5 /* PaperOnboardingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8600AB5A179D78C5C6ACC7E48B0D6957 /* PaperOnboardingDelegate.swift */; };
+		8E4E8665231216670E0DD1DE32224812 /* Configuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B9D8171C76A7410D8650868D7F94B /* Configuring.swift */; };
+		A313EB4D33DAA1D3A647278DC20FAE36 /* Pods-TelloGestureControl WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7AE2A8B0497E1094B1B900E237EAC8 /* Pods-TelloGestureControl WatchKit Extension-dummy.m */; };
+		A5D73762DAA1C577209742A4A63B6374 /* Pods-TelloGestureControlTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E34C1202834DD67C101DE54E2BCB5C /* Pods-TelloGestureControlTests-dummy.m */; };
+		B2CE4FC5C310FC8F7FF6B91362C6D513 /* GestureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5766ECA81F4A92F050A149DCC2EE1 /* GestureControl.swift */; };
+		BEF70A05FDB72B85AFBF56996647412F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */; };
+		BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F60C31F33B3595F23415B1FD57F2126 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4147D6B3EAD4AB16D7DD4AB64714260 /* Pods-TelloGestureControlTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4416F34FEFBA5525E65A7BDC99A72111 /* Pods-TelloGestureControlTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF67E65CC779FFD2F85A77E4798ACE70 /* Pods-TelloGestureControl WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6CF51530A1989D50F6C1B6D7928B54 /* Pods-TelloGestureControl WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE45CC41E42D9263C6F819DC68744DB /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA796C399BD028C7BDE122FD28B24FE /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEA7EFC750302832D3C8B8B9258E611 /* ConstraintsHelper.swift */; };
+		F3513898978812B5DB65771F46CF7707 /* PaperOnboardingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED63FD7113DF1D90A4EBD7404C9B6C88 /* PaperOnboardingDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09D8B177BA3D3D371829BC774CA503DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		2FCEE49AD868F8F01008FD918FE6A455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		461566CFA5C4592C6BF11E3C83DB8E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092BBAE106FF2FFA56F415EFB1EDBC41;
+			remoteInfo = "paper-onboarding";
+		};
+		75C0099E7BEA88E0B67E375E62B2F8C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092BBAE106FF2FFA56F415EFB1EDBC41;
+			remoteInfo = "paper-onboarding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006AEB1401491A523EB05AA818C70FDD /* Pods-TelloGestureControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControl-Info.plist"; sourceTree = "<group>"; };
+		00895AC430BFFAC92B723D8E8175E3CD /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		0421B4A1276C8F6F331352DBAEF9420C /* Pods-TelloGestureControl WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelloGestureControl WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05E656E57653D5021C3AB0387CD70E86 /* Pods_TelloGestureControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TelloGestureControl.framework; path = "Pods-TelloGestureControl.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D02315E563AE424C3503250918B721 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		098AA3C6BC4B507512A8AA2EB2FF3A15 /* Pods-TelloGestureControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelloGestureControl-dummy.m"; sourceTree = "<group>"; };
+		0CF80714B4EFCAE470AF170D122FF25D /* Pods-TelloGestureControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControl.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6CF51530A1989D50F6C1B6D7928B54 /* Pods-TelloGestureControl WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelloGestureControl WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		1F8D049BC86F440A3EEE4D38D2715A02 /* Pods-TelloGestureControl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelloGestureControl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C25929586CD511DCA86D0142A1E7083 /* Pods-TelloGestureControl-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TelloGestureControl-frameworks.sh"; sourceTree = "<group>"; };
+		2F377E35FB4A82ACAB4924BBB403FD83 /* paper-onboarding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "paper-onboarding.modulemap"; sourceTree = "<group>"; };
+		3734D6836238A614746044CF5BAF112C /* Pods-TelloGestureControl WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelloGestureControl WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		3CAA23CEFD3BCE835D70BF9682CEDDD5 /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContantViewItem.swift; path = Source/OnboardingContentView/Item/OnboardingContantViewItem.swift; sourceTree = "<group>"; };
+		414A0368707AEDCBA24C25FE1D771B0A /* Pods_TelloGestureControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TelloGestureControlTests.framework; path = "Pods-TelloGestureControlTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F5766ECA81F4A92F050A149DCC2EE1 /* GestureControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureControl.swift; path = Source/GestureControl/GestureControl.swift; sourceTree = "<group>"; };
+		43B1ADEDDFE7DD54565DF5C982AD0F07 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		4416F34FEFBA5525E65A7BDC99A72111 /* Pods-TelloGestureControlTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelloGestureControlTests-umbrella.h"; sourceTree = "<group>"; };
+		4AB4C5980C591A4BFF2B38FD1DF73013 /* Pods-TelloGestureControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EC376C9B494870383B71E4C3D804132 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4F60C31F33B3595F23415B1FD57F2126 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		505A410FF5BA46F3062FEA3AF1CBB4AD /* OnboardingContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContentView.swift; path = Source/OnboardingContentView/OnboardingContentView.swift; sourceTree = "<group>"; };
+		511449A22D807F808C357CDAE5DEABDD /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		570B9D8171C76A7410D8650868D7F94B /* Configuring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuring.swift; path = Source/Helpers/Configuring.swift; sourceTree = "<group>"; };
+		58A2776566B753D0A9ED28C28E5D546F /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		5BFB8EE4AA7DCC33073542965A2E9FF1 /* Pods-TelloGestureControl WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControl WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		63B709DAC65B2AA01B879942257F9FD2 /* paper-onboarding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "paper-onboarding-Info.plist"; sourceTree = "<group>"; };
+		6905356873E4AA62A339FADF7611FD24 /* Pods-TelloGestureControl WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControl WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		69A7357259609BF83AA1AFB47F3D636B /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		6A1FE17061F5BCE1DF4212CACA20B1AC /* Pods_TelloGestureControl_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TelloGestureControl_WatchKit_Extension.framework; path = "Pods-TelloGestureControl WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCDFC9F6246A6D5B5D15A4F0D899A4C /* Pods_TelloGestureControl_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TelloGestureControl_WatchKit_App.framework; path = "Pods-TelloGestureControl WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E121EB389FE58EEFC94F3DB3C5455F /* Pods-TelloGestureControlTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TelloGestureControlTests-frameworks.sh"; sourceTree = "<group>"; };
+		7AA1B4B166E9AB9F195729D7FA9F21E9 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		7E3C0C905A766D2670055215A52C53D4 /* Pods-TelloGestureControlTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControlTests-Info.plist"; sourceTree = "<group>"; };
+		7EBE1A53184AACC35BA54F8DA848D7CC /* Pods-TelloGestureControlTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelloGestureControlTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85E34C1202834DD67C101DE54E2BCB5C /* Pods-TelloGestureControlTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelloGestureControlTests-dummy.m"; sourceTree = "<group>"; };
+		8600AB5A179D78C5C6ACC7E48B0D6957 /* PaperOnboardingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDelegate.swift; path = Source/PaperOnboardingDelegate.swift; sourceTree = "<group>"; };
+		8BC5BDE72E8DCB8394986A53057348A2 /* PageViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewItem.swift; path = Source/PageView/Item/PageViewItem.swift; sourceTree = "<group>"; };
+		900C02929BA3F2EE0FB91FDD6BA8BA81 /* Pods-TelloGestureControlTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelloGestureControlTests.modulemap"; sourceTree = "<group>"; };
+		901B2077FE0924679263C6F5BA0D5AC2 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Source/PageView/PageView.swift; sourceTree = "<group>"; };
+		987BF5061BB8EA3114DDA5BD6AFFDA73 /* paper-onboarding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "paper-onboarding-dummy.m"; sourceTree = "<group>"; };
+		9887531C32773A4D0DF921BE7A3A7499 /* Pods-TelloGestureControl WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControl WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		9B78092AF9DA276B87C3A7842E2CCEDB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E83E15274C4EE514B6ACD9381E34C06 /* Pods-TelloGestureControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControl.release.xcconfig"; sourceTree = "<group>"; };
+		9EE45CC41E42D9263C6F819DC68744DB /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A39E615E33E40E91C6C86C93AB2256E9 /* Pods-TelloGestureControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelloGestureControl.modulemap"; sourceTree = "<group>"; };
+		ADAE7E3A7E323B8A56901D99A7A80E2D /* Pods-TelloGestureControl WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelloGestureControl WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B26B41C71D8286BC87AA597317051756 /* Pods-TelloGestureControl WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControl WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		B2C85EB4F25D5D7503A188D8B1568726 /* Pods-TelloGestureControl WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControl WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		B3462138729A5EEDF6E0AF222185BA89 /* Pods-TelloGestureControl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControl-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8E113D35D7115A867ED080F501DB031 /* paper-onboarding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.xcconfig"; sourceTree = "<group>"; };
+		BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = paper_onboarding.framework; path = "paper-onboarding.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C244467E105783C4767B263EE16A8858 /* Pods-TelloGestureControl WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControl WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		C8FC9889679ED553575A40D29BADEC96 /* PageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageContainer.swift; path = Source/PageView/PageContainerView/PageContainer.swift; sourceTree = "<group>"; };
+		CCE6FE7CB85842B4AE01306E239CE7D7 /* Pods-TelloGestureControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelloGestureControl-umbrella.h"; sourceTree = "<group>"; };
+		CDCD5E462D2F643CF0A2FCC06B35D380 /* Pods-TelloGestureControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF7AE2A8B0497E1094B1B900E237EAC8 /* Pods-TelloGestureControl WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelloGestureControl WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		D0E425025C005D9947F0BF898B693A1F /* Pods-TelloGestureControl WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelloGestureControl WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		D2AFDB88826E9D3B233BD97418912ED0 /* PaperOnboarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboarding.swift; path = Source/PaperOnboarding.swift; sourceTree = "<group>"; };
+		D52CA90130F011F52A24A1F9B2EFBF04 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		D70B45A00FD4C40BAF670B7BAAF2875D /* paper-onboarding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-umbrella.h"; sourceTree = "<group>"; };
+		D7C52B125FC6040FB04157DD58C18D32 /* Pods-TelloGestureControlTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControlTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E228B1FDA4C4F850B9E2D7FE1195F68D /* Pods-TelloGestureControl WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelloGestureControl WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		E804B27647E834B24000D3BF1319D874 /* Pods-TelloGestureControl WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelloGestureControl WatchKit App.modulemap"; sourceTree = "<group>"; };
+		EAE02B0412D6E526E5C451BFD7BBEA1E /* FillAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillAnimationView.swift; path = Source/FillAnimationView/FillAnimationView.swift; sourceTree = "<group>"; };
+		EBEA7EFC750302832D3C8B8B9258E611 /* ConstraintsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsHelper.swift; path = Source/Helpers/ConstraintsHelper.swift; sourceTree = "<group>"; };
+		ED63FD7113DF1D90A4EBD7404C9B6C88 /* PaperOnboardingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDataSource.swift; path = Source/PaperOnboardingDataSource.swift; sourceTree = "<group>"; };
+		EDB24FE1E7D4E278640A0480424F377A /* Pods-TelloGestureControl WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloGestureControl WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4B8BB66695C4A015C6D4D03707D3B10 /* Pods-TelloGestureControl WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloGestureControl WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		F5296D28EFC5C606CBDD791B1D8F97C7 /* paper-onboarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-prefix.pch"; sourceTree = "<group>"; };
+		FBB9FACB9E2EFA36A67C0FFCEA6093A8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07625DBE13D8B032CD924EE4FA26D3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569FC92E6B444C24EBF2C33CE01C22E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0995386CC00378FB8BC461EAAD6AC26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B970F50B6565183DF0FD689A68C7CF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */,
+				14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */,
+				0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2AC953D2FADA776F61B85974637EC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C635BA7C73A4541225E380D4BD67A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C234D9A861D28F5511A51C1E493EBD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF70A05FDB72B85AFBF56996647412F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8929E87AB63351AF012D8C53890F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312BF2ABD1002E38247A633C34C649AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AC07A534E60CE6FF34BBE879C028D3 /* Pods-TelloGestureControl WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E228B1FDA4C4F850B9E2D7FE1195F68D /* Pods-TelloGestureControl WatchKit Extension.modulemap */,
+				0421B4A1276C8F6F331352DBAEF9420C /* Pods-TelloGestureControl WatchKit Extension-acknowledgements.markdown */,
+				EDB24FE1E7D4E278640A0480424F377A /* Pods-TelloGestureControl WatchKit Extension-acknowledgements.plist */,
+				CF7AE2A8B0497E1094B1B900E237EAC8 /* Pods-TelloGestureControl WatchKit Extension-dummy.m */,
+				9887531C32773A4D0DF921BE7A3A7499 /* Pods-TelloGestureControl WatchKit Extension-Info.plist */,
+				3734D6836238A614746044CF5BAF112C /* Pods-TelloGestureControl WatchKit Extension-umbrella.h */,
+				B26B41C71D8286BC87AA597317051756 /* Pods-TelloGestureControl WatchKit Extension.debug.xcconfig */,
+				F4B8BB66695C4A015C6D4D03707D3B10 /* Pods-TelloGestureControl WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-TelloGestureControl WatchKit Extension";
+			path = "Target Support Files/Pods-TelloGestureControl WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		20D56E14E94481997707414E81E56A6C /* Pods-TelloGestureControl WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E804B27647E834B24000D3BF1319D874 /* Pods-TelloGestureControl WatchKit App.modulemap */,
+				ADAE7E3A7E323B8A56901D99A7A80E2D /* Pods-TelloGestureControl WatchKit App-acknowledgements.markdown */,
+				6905356873E4AA62A339FADF7611FD24 /* Pods-TelloGestureControl WatchKit App-acknowledgements.plist */,
+				D0E425025C005D9947F0BF898B693A1F /* Pods-TelloGestureControl WatchKit App-dummy.m */,
+				5BFB8EE4AA7DCC33073542965A2E9FF1 /* Pods-TelloGestureControl WatchKit App-Info.plist */,
+				0E6CF51530A1989D50F6C1B6D7928B54 /* Pods-TelloGestureControl WatchKit App-umbrella.h */,
+				B2C85EB4F25D5D7503A188D8B1568726 /* Pods-TelloGestureControl WatchKit App.debug.xcconfig */,
+				C244467E105783C4767B263EE16A8858 /* Pods-TelloGestureControl WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-TelloGestureControl WatchKit App";
+			path = "Target Support Files/Pods-TelloGestureControl WatchKit App";
+			sourceTree = "<group>";
+		};
+		21147197EF2783DB0F837DFD12E2AAD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABF614FA9E6CEF797F2244F31AC4C02D /* CocoaAsyncSocket */,
+				C1BD9A25DA4730558BDA824BD9C52214 /* paper-onboarding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24FF626AE4690E014421B9C106913EB9 /* Pods-TelloGestureControl */ = {
+			isa = PBXGroup;
+			children = (
+				A39E615E33E40E91C6C86C93AB2256E9 /* Pods-TelloGestureControl.modulemap */,
+				1F8D049BC86F440A3EEE4D38D2715A02 /* Pods-TelloGestureControl-acknowledgements.markdown */,
+				B3462138729A5EEDF6E0AF222185BA89 /* Pods-TelloGestureControl-acknowledgements.plist */,
+				098AA3C6BC4B507512A8AA2EB2FF3A15 /* Pods-TelloGestureControl-dummy.m */,
+				2C25929586CD511DCA86D0142A1E7083 /* Pods-TelloGestureControl-frameworks.sh */,
+				006AEB1401491A523EB05AA818C70FDD /* Pods-TelloGestureControl-Info.plist */,
+				CCE6FE7CB85842B4AE01306E239CE7D7 /* Pods-TelloGestureControl-umbrella.h */,
+				0CF80714B4EFCAE470AF170D122FF25D /* Pods-TelloGestureControl.debug.xcconfig */,
+				9E83E15274C4EE514B6ACD9381E34C06 /* Pods-TelloGestureControl.release.xcconfig */,
+			);
+			name = "Pods-TelloGestureControl";
+			path = "Target Support Files/Pods-TelloGestureControl";
+			sourceTree = "<group>";
+		};
+		25B553403BBD4EEF4B3150C900C0B8AB /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		4F53BE22265ED3DF6061EA993BA14B35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24FF626AE4690E014421B9C106913EB9 /* Pods-TelloGestureControl */,
+				20D56E14E94481997707414E81E56A6C /* Pods-TelloGestureControl WatchKit App */,
+				03AC07A534E60CE6FF34BBE879C028D3 /* Pods-TelloGestureControl WatchKit Extension */,
+				6DB95D87D776E0D94C64A99A054F2164 /* Pods-TelloGestureControlTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		68EDAAA8B2ECDDCA4A1FB3413E0B8C8A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B78092AF9DA276B87C3A7842E2CCEDB /* CFNetwork.framework */,
+				4EC376C9B494870383B71E4C3D804132 /* Foundation.framework */,
+				FBB9FACB9E2EFA36A67C0FFCEA6093A8 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DB95D87D776E0D94C64A99A054F2164 /* Pods-TelloGestureControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				900C02929BA3F2EE0FB91FDD6BA8BA81 /* Pods-TelloGestureControlTests.modulemap */,
+				7EBE1A53184AACC35BA54F8DA848D7CC /* Pods-TelloGestureControlTests-acknowledgements.markdown */,
+				D7C52B125FC6040FB04157DD58C18D32 /* Pods-TelloGestureControlTests-acknowledgements.plist */,
+				85E34C1202834DD67C101DE54E2BCB5C /* Pods-TelloGestureControlTests-dummy.m */,
+				73E121EB389FE58EEFC94F3DB3C5455F /* Pods-TelloGestureControlTests-frameworks.sh */,
+				7E3C0C905A766D2670055215A52C53D4 /* Pods-TelloGestureControlTests-Info.plist */,
+				4416F34FEFBA5525E65A7BDC99A72111 /* Pods-TelloGestureControlTests-umbrella.h */,
+				CDCD5E462D2F643CF0A2FCC06B35D380 /* Pods-TelloGestureControlTests.debug.xcconfig */,
+				4AB4C5980C591A4BFF2B38FD1DF73013 /* Pods-TelloGestureControlTests.release.xcconfig */,
+			);
+			name = "Pods-TelloGestureControlTests";
+			path = "Target Support Files/Pods-TelloGestureControlTests";
+			sourceTree = "<group>";
+		};
+		A9C44DD6E129BD6339AB9994FC990A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
+				BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */,
+				05E656E57653D5021C3AB0387CD70E86 /* Pods_TelloGestureControl.framework */,
+				6FCDFC9F6246A6D5B5D15A4F0D899A4C /* Pods_TelloGestureControl_WatchKit_App.framework */,
+				6A1FE17061F5BCE1DF4212CACA20B1AC /* Pods_TelloGestureControl_WatchKit_Extension.framework */,
+				414A0368707AEDCBA24C25FE1D771B0A /* Pods_TelloGestureControlTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF614FA9E6CEF797F2244F31AC4C02D /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9EE45CC41E42D9263C6F819DC68744DB /* GCDAsyncSocket.h */,
+				511449A22D807F808C357CDAE5DEABDD /* GCDAsyncSocket.m */,
+				D52CA90130F011F52A24A1F9B2EFBF04 /* GCDAsyncUdpSocket.h */,
+				4F60C31F33B3595F23415B1FD57F2126 /* GCDAsyncUdpSocket.m */,
+				C13D224C8B0CDB1D5A6C5B57E93FD4FB /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		BFC9A8986ED351F9B00BE7521FE1A3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68EDAAA8B2ECDDCA4A1FB3413E0B8C8A /* iOS */,
+				25B553403BBD4EEF4B3150C900C0B8AB /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13D224C8B0CDB1D5A6C5B57E93FD4FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B1ADEDDFE7DD54565DF5C982AD0F07 /* CocoaAsyncSocket.modulemap */,
+				58A2776566B753D0A9ED28C28E5D546F /* CocoaAsyncSocket.xcconfig */,
+				00895AC430BFFAC92B723D8E8175E3CD /* CocoaAsyncSocket-dummy.m */,
+				69A7357259609BF83AA1AFB47F3D636B /* CocoaAsyncSocket-Info.plist */,
+				06D02315E563AE424C3503250918B721 /* CocoaAsyncSocket-prefix.pch */,
+				7AA1B4B166E9AB9F195729D7FA9F21E9 /* CocoaAsyncSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		C1BD9A25DA4730558BDA824BD9C52214 /* paper-onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				570B9D8171C76A7410D8650868D7F94B /* Configuring.swift */,
+				EBEA7EFC750302832D3C8B8B9258E611 /* ConstraintsHelper.swift */,
+				EAE02B0412D6E526E5C451BFD7BBEA1E /* FillAnimationView.swift */,
+				41F5766ECA81F4A92F050A149DCC2EE1 /* GestureControl.swift */,
+				3CAA23CEFD3BCE835D70BF9682CEDDD5 /* OnboardingContantViewItem.swift */,
+				505A410FF5BA46F3062FEA3AF1CBB4AD /* OnboardingContentView.swift */,
+				C8FC9889679ED553575A40D29BADEC96 /* PageContainer.swift */,
+				901B2077FE0924679263C6F5BA0D5AC2 /* PageView.swift */,
+				8BC5BDE72E8DCB8394986A53057348A2 /* PageViewItem.swift */,
+				D2AFDB88826E9D3B233BD97418912ED0 /* PaperOnboarding.swift */,
+				ED63FD7113DF1D90A4EBD7404C9B6C88 /* PaperOnboardingDataSource.swift */,
+				8600AB5A179D78C5C6ACC7E48B0D6957 /* PaperOnboardingDelegate.swift */,
+				DEB1063E59FEAA63523074B99BB3EED8 /* Support Files */,
+			);
+			name = "paper-onboarding";
+			path = "paper-onboarding";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BFC9A8986ED351F9B00BE7521FE1A3E8 /* Frameworks */,
+				21147197EF2783DB0F837DFD12E2AAD3 /* Pods */,
+				A9C44DD6E129BD6339AB9994FC990A01 /* Products */,
+				4F53BE22265ED3DF6061EA993BA14B35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB1063E59FEAA63523074B99BB3EED8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F377E35FB4A82ACAB4924BBB403FD83 /* paper-onboarding.modulemap */,
+				B8E113D35D7115A867ED080F501DB031 /* paper-onboarding.xcconfig */,
+				987BF5061BB8EA3114DDA5BD6AFFDA73 /* paper-onboarding-dummy.m */,
+				63B709DAC65B2AA01B879942257F9FD2 /* paper-onboarding-Info.plist */,
+				F5296D28EFC5C606CBDD791B1D8F97C7 /* paper-onboarding-prefix.pch */,
+				D70B45A00FD4C40BAF670B7BAAF2875D /* paper-onboarding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/paper-onboarding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06FB564F159943E3331B3B270DB151B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF67E65CC779FFD2F85A77E4798ACE70 /* Pods-TelloGestureControl WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEBB8D3BE30948C8D4C55CE06DC4201 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212086E4C51B3A341D4C61C6FDE867A8 /* Pods-TelloGestureControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D37B5C2555F4F5ACBD41A881AF50797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342607275DABA8DA2A32D101196496EB /* paper-onboarding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C05184D258CCEC7E9E286E00A498C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4147D6B3EAD4AB16D7DD4AB64714260 /* Pods-TelloGestureControlTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A4EFBA3D298D0E2772A00A7077AB5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F4BC0C85E1F8A1F5E7E8FCF1391B25 /* Pods-TelloGestureControl WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82807D639FCFDF56A607D3970098A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */,
+				411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF71E528A02CBD2D7497ADC845C057 /* Build configuration list for PBXNativeTarget "paper-onboarding" */;
+			buildPhases = (
+				6D37B5C2555F4F5ACBD41A881AF50797 /* Headers */,
+				28B14E019345581A4A106E50E54F7A35 /* Sources */,
+				0995386CC00378FB8BC461EAAD6AC26F /* Frameworks */,
+				9F304C62837AB904FCB12E99521A80D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paper-onboarding";
+			productName = "paper-onboarding";
+			productReference = BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1BEA05ABCA5434B57CA3E15F0CC7275C /* Pods-TelloGestureControl WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A189945C2A477BAB100C55D1DBB8507E /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControl WatchKit Extension" */;
+			buildPhases = (
+				B0A4EFBA3D298D0E2772A00A7077AB5A /* Headers */,
+				C65D422585C12C2C841BDA2C5FF482AD /* Sources */,
+				C234D9A861D28F5511A51C1E493EBD27 /* Frameworks */,
+				1CC4396556F2E415E1FC147C6DB66C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TelloGestureControl WatchKit Extension";
+			productName = "Pods-TelloGestureControl WatchKit Extension";
+			productReference = 6A1FE17061F5BCE1DF4212CACA20B1AC /* Pods_TelloGestureControl_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A4F9C643342A971E5277B1FF665CF3C /* Pods-TelloGestureControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C5D4E266F175FC0599CE5FCF0AF33B /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControlTests" */;
+			buildPhases = (
+				7C6C05184D258CCEC7E9E286E00A498C /* Headers */,
+				86698BE771155E4CB12166FBA7BB129D /* Sources */,
+				07625DBE13D8B032CD924EE4FA26D3D2 /* Frameworks */,
+				DDDF535FD35C1D87DF233729A4027960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0371D31210E2AE7C3DF91CC4FF3B878 /* PBXTargetDependency */,
+				8560F1BB24A0FF64A4288D675867CA42 /* PBXTargetDependency */,
+			);
+			name = "Pods-TelloGestureControlTests";
+			productName = "Pods-TelloGestureControlTests";
+			productReference = 414A0368707AEDCBA24C25FE1D771B0A /* Pods_TelloGestureControlTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				F82807D639FCFDF56A607D3970098A87 /* Headers */,
+				398D9830C2C4A6872C9EEC588214E124 /* Sources */,
+				160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */,
+				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95B75A4CD69FD178956291B524B2EC79 /* Pods-TelloGestureControl WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9982CA74AE0A4DC8ABFFB222D44E0A74 /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControl WatchKit App" */;
+			buildPhases = (
+				06FB564F159943E3331B3B270DB151B1 /* Headers */,
+				7D6BD90F6DE6226101884493B2C3B01E /* Sources */,
+				CC8929E87AB63351AF012D8C53890F6F /* Frameworks */,
+				7D67E382E16086027960DDEB0D50933D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TelloGestureControl WatchKit App";
+			productName = "Pods-TelloGestureControl WatchKit App";
+			productReference = 6FCDFC9F6246A6D5B5D15A4F0D899A4C /* Pods_TelloGestureControl_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9942719F9EFE78248DEDB78EF6469CE /* Pods-TelloGestureControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4456C4070EC31C6BF57EDF1C326DEE /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControl" */;
+			buildPhases = (
+				2BEBB8D3BE30948C8D4C55CE06DC4201 /* Headers */,
+				74CDD359ED54AA1BA6DC94BBD1EDB22E /* Sources */,
+				A2AC953D2FADA776F61B85974637EC7F /* Frameworks */,
+				8C6C3A1B1441EE66F7F2DAFA5E483744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5EE90BF14C9EF02ED26A55517C9C75 /* PBXTargetDependency */,
+				3011B06BACC35A5D448B61C4D9D439FC /* PBXTargetDependency */,
+			);
+			name = "Pods-TelloGestureControl";
+			productName = "Pods-TelloGestureControl";
+			productReference = 05E656E57653D5021C3AB0387CD70E86 /* Pods_TelloGestureControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A9C44DD6E129BD6339AB9994FC990A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */,
+				E9942719F9EFE78248DEDB78EF6469CE /* Pods-TelloGestureControl */,
+				95B75A4CD69FD178956291B524B2EC79 /* Pods-TelloGestureControl WatchKit App */,
+				1BEA05ABCA5434B57CA3E15F0CC7275C /* Pods-TelloGestureControl WatchKit Extension */,
+				4A4F9C643342A971E5277B1FF665CF3C /* Pods-TelloGestureControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC4396556F2E415E1FC147C6DB66C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D67E382E16086027960DDEB0D50933D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6C3A1B1441EE66F7F2DAFA5E483744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F304C62837AB904FCB12E99521A80D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDF535FD35C1D87DF233729A4027960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B14E019345581A4A106E50E54F7A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4E8665231216670E0DD1DE32224812 /* Configuring.swift in Sources */,
+				EBA796C399BD028C7BDE122FD28B24FE /* ConstraintsHelper.swift in Sources */,
+				1D8BE755A684FC132E1C0D62AD35A56A /* FillAnimationView.swift in Sources */,
+				B2CE4FC5C310FC8F7FF6B91362C6D513 /* GestureControl.swift in Sources */,
+				07F30B15B1E9FD878007C41ED8B8CCFA /* OnboardingContantViewItem.swift in Sources */,
+				4C615F57B763AA6170BBE5251567F140 /* OnboardingContentView.swift in Sources */,
+				4F17055D20B820F265F0C174C67CA94B /* PageContainer.swift in Sources */,
+				1E43AD13C988387C35D65D341FA2A8C8 /* PageView.swift in Sources */,
+				77F112403440A7419C4880CABD38A962 /* PageViewItem.swift in Sources */,
+				223F3449974BEA68231F1EA9C6E1FE8D /* paper-onboarding-dummy.m in Sources */,
+				2389208835126ADD6B969F7031EBFDCB /* PaperOnboarding.swift in Sources */,
+				F3513898978812B5DB65771F46CF7707 /* PaperOnboardingDataSource.swift in Sources */,
+				7D669CE134F23BB348238F83F58F94D5 /* PaperOnboardingDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D9830C2C4A6872C9EEC588214E124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */,
+				1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */,
+				BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CDD359ED54AA1BA6DC94BBD1EDB22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CFA713EE9BC3CB4BF46E3B3DB0FCE2 /* Pods-TelloGestureControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BD90F6DE6226101884493B2C3B01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352B04945B096805FF7974E2C2132163 /* Pods-TelloGestureControl WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86698BE771155E4CB12166FBA7BB129D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D73762DAA1C577209742A4A63B6374 /* Pods-TelloGestureControlTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65D422585C12C2C841BDA2C5FF482AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A313EB4D33DAA1D3A647278DC20FAE36 /* Pods-TelloGestureControl WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3011B06BACC35A5D448B61C4D9D439FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paper-onboarding";
+			target = 092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */;
+			targetProxy = 75C0099E7BEA88E0B67E375E62B2F8C0 /* PBXContainerItemProxy */;
+		};
+		8560F1BB24A0FF64A4288D675867CA42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paper-onboarding";
+			target = 092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */;
+			targetProxy = 461566CFA5C4592C6BF11E3C83DB8E74 /* PBXContainerItemProxy */;
+		};
+		CA5EE90BF14C9EF02ED26A55517C9C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 2FCEE49AD868F8F01008FD918FE6A455 /* PBXContainerItemProxy */;
+		};
+		E0371D31210E2AE7C3DF91CC4FF3B878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 09D8B177BA3D3D371829BC774CA503DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077E042756B0B3F75C5F973B75A3ADB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C85EB4F25D5D7503A188D8B1568726 /* Pods-TelloGestureControl WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit App/Pods-TelloGestureControl WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit App/Pods-TelloGestureControl WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		11112A5F0C1977972DA20F08785A6227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E113D35D7115A867ED080F501DB031 /* paper-onboarding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C8D69082FD57205A8335B6E64335A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		4FAF48439B003C64C2FEED34C0D552AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDCD5E462D2F643CF0A2FCC06B35D380 /* Pods-TelloGestureControlTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControlTests/Pods-TelloGestureControlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControlTests/Pods-TelloGestureControlTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		648B5A778A3D98B3721F2AC5BDC990B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		74608953414A68DBBB0BF6091793AE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C244467E105783C4767B263EE16A8858 /* Pods-TelloGestureControl WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit App/Pods-TelloGestureControl WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit App/Pods-TelloGestureControl WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		7BCE4756F98B64C9B433852A2A50968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB4C5980C591A4BFF2B38FD1DF73013 /* Pods-TelloGestureControlTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControlTests/Pods-TelloGestureControlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControlTests/Pods-TelloGestureControlTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		982044EB7C594B8B26A1CC31229C5880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E83E15274C4EE514B6ACD9381E34C06 /* Pods-TelloGestureControl.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADB88CB23582D7BEF198DCA1831C882F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E113D35D7115A867ED080F501DB031 /* paper-onboarding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0B6FBCA3688C653B65F53B381AD63C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A2776566B753D0A9ED28C28E5D546F /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C26CE58C62D9159C993E384748C4DC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF80714B4EFCAE470AF170D122FF25D /* Pods-TelloGestureControl.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE98AA27FD393B4A2C2EF1DD7813C694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26B41C71D8286BC87AA597317051756 /* Pods-TelloGestureControl WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit Extension/Pods-TelloGestureControl WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit Extension/Pods-TelloGestureControl WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		E45797F4BED86466FE122E04B84DC612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A2776566B753D0A9ED28C28E5D546F /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9404F4E2718C2400F8E869BE62C5C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B8BB66695C4A015C6D4D03707D3B10 /* Pods-TelloGestureControl WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit Extension/Pods-TelloGestureControl WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelloGestureControl WatchKit Extension/Pods-TelloGestureControl WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8D69082FD57205A8335B6E64335A16 /* Debug */,
+				648B5A778A3D98B3721F2AC5BDC990B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45797F4BED86466FE122E04B84DC612 /* Debug */,
+				C0B6FBCA3688C653B65F53B381AD63C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4456C4070EC31C6BF57EDF1C326DEE /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26CE58C62D9159C993E384748C4DC44 /* Debug */,
+				982044EB7C594B8B26A1CC31229C5880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C5D4E266F175FC0599CE5FCF0AF33B /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAF48439B003C64C2FEED34C0D552AF /* Debug */,
+				7BCE4756F98B64C9B433852A2A50968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9982CA74AE0A4DC8ABFFB222D44E0A74 /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControl WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077E042756B0B3F75C5F973B75A3ADB1 /* Debug */,
+				74608953414A68DBBB0BF6091793AE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A189945C2A477BAB100C55D1DBB8507E /* Build configuration list for PBXNativeTarget "Pods-TelloGestureControl WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE98AA27FD393B4A2C2EF1DD7813C694 /* Debug */,
+				E9404F4E2718C2400F8E869BE62C5C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF71E528A02CBD2D7497ADC845C057 /* Build configuration list for PBXNativeTarget "paper-onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB88CB23582D7BEF198DCA1831C882F /* Debug */,
+				11112A5F0C1977972DA20F08785A6227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

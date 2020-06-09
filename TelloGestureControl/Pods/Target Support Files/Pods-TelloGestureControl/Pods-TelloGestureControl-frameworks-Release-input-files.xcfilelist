@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework

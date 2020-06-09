@@ -1,0 +1,20 @@
+PODS:
+  - CocoaAsyncSocket (7.6.4)
+  - paper-onboarding (6.1.4)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - paper-onboarding
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - paper-onboarding
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  paper-onboarding: d3f16416e6f42add686117e8b32bfffaad899a79
+
+PODFILE CHECKSUM: ba3ae84a0d05c5ef6dce87d45b100c617675a242
+
+COCOAPODS: 1.8.4

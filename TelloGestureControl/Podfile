@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TelloGestureControl' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TelloGestureControl
+  pod 'CocoaAsyncSocket'
+  pod 'paper-onboarding'
+
+end
+
+target 'TelloGestureControl WatchKit App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TelloGestureControl WatchKit App
+
+end
+
+target 'TelloGestureControl WatchKit Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TelloGestureControl WatchKit Extension
+
+end
