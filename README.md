@@ -8,3 +8,5 @@ The motion data was used to create the general piloting control scheme based on 
 The machine learning model was fed a larger set of readings that allowed for it to recognise movement over time, detect the movements completed, and send commands to the drone that correspond to the detected movements.
 
 The machine learning model had a 96% accuracy after training and worked effectively for detecting different motions for front/back flips and left/right rolls.
+
+Note that in the past I have worked with programmatic UI when using Swift. This project was a hybrid, with most of the work being completed programmatically. It does not use SwiftUI due to it being so new, I didn't want there to be any big changes to the language that would cause trouble during development so I stuck with UIKit/WatchKit.
