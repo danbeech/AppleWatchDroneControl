@@ -25,13 +25,13 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>uk.co.danbeech.TelloGestureControl.watchkitapp</string>
+			<string>ichise.TelloGestureControl.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
 	<key>NSMotionUsageDescription</key>
-	<string>In order to use gesture control, the app needs access to your device's motion data.</string>
+	<string>In order to use gesture control, the app needs access to your device&apos;s motion data.</string>
 	<key>UIBackgroundModes</key>
 	<array/>
 	<key>WKBackgroundModes</key>

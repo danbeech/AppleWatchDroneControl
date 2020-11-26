@@ -265,12 +265,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375458C1241128A100D6D3FA /* Build configuration list for PBXNativeTarget "TelloGestureControl" */;
 			buildPhases = (
-				E6B6E8140712957714E413B6 /* [CP] Check Pods Manifest.lock */,
 				375458812411289E00D6D3FA /* Sources */,
 				375458822411289E00D6D3FA /* Frameworks */,
 				375458832411289E00D6D3FA /* Resources */,
 				375458C0241128A100D6D3FA /* Embed Watch Content */,
-				0E155B1D9B850505B2A2D8BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,7 +284,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375458BD241128A100D6D3FA /* Build configuration list for PBXNativeTarget "TelloGestureControl WatchKit App" */;
 			buildPhases = (
-				9C96B46EFE0E078A27F97A58 /* [CP] Check Pods Manifest.lock */,
 				37545897241128A000D6D3FA /* Resources */,
 				375458BC241128A100D6D3FA /* Embed App Extensions */,
 				0BF3EFD5EF5BAD14AD7BB96B /* Frameworks */,
@@ -305,7 +302,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375458B9241128A100D6D3FA /* Build configuration list for PBXNativeTarget "TelloGestureControl WatchKit Extension" */;
 			buildPhases = (
-				2BBB7004DF2B6724F8BC64DA /* [CP] Check Pods Manifest.lock */,
 				375458A4241128A000D6D3FA /* Sources */,
 				375458A5241128A000D6D3FA /* Frameworks */,
 				375458A6241128A000D6D3FA /* Resources */,
@@ -419,92 +415,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0E155B1D9B850505B2A2D8BD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TelloGestureControl/Pods-TelloGestureControl-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2BBB7004DF2B6724F8BC64DA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TelloGestureControl WatchKit Extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9C96B46EFE0E078A27F97A58 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TelloGestureControl WatchKit App-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6B6E8140712957714E413B6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TelloGestureControl-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		375458812411289E00D6D3FA /* Sources */ = {
